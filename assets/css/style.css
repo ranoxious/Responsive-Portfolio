@@ -139,6 +139,78 @@ footer {
     height: 40px;
   }
 
+  @media screen and (max-width: 980px) {
+    #main-container  {
+      padding-top: 0;
+      }
+    .container {
+      width: 100%;
+      max-width: 750px;
+    }
+    .main-section {
+      width: 60%;
+    }
+    .auth-image {
+      width: 100%;
+      height: auto;
+    }
+    .work {
+    width: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px)
+  {
+  
+  header {
+  
+    width: 400px;
+    margin: -30px;
+   
+  }
+  nav {
+    float: left;
+    margin-top: 40px;
+  
+  }
+  nav a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  #main-container {
+   
+  margin:-15px;
+  
+  }
+  
+  #logo{
+    margin:13px;
+  
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+  header{
+    width:80%;
+    margin: -15px;
+  }
+  
+  footer{
+    width: 680px;
+    margin: -45px;
+  }
+  
+  }
+  
+    
+
   @media screen and (max-width: 640px)
   {
   
@@ -173,68 +245,5 @@ footer {
     margin: -50px;
   }
   
-
-  @media screen and (max-width: 768px)
-{
-
-header {
-
-  width: 400px;
-  margin: -30px;
- 
-}
-nav {
-  float: left;
-  margin-top: 40px;
-
-}
-nav a {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 15px;
-}
-
-#main-container {
- 
-margin:-15px;
-
-}
-
-#logo{
-  margin:13px;
-
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-  clear: both;
-}
-
-header{
-  width:80%;
-  margin: -15px;
-}
-
-footer{
-  width: 680px;
-  margin: -45px;
-}
-
-}
-
-@media screen and (max-width: 980px) {
-  #main-container  {
-    padding-top: 0;
-    }
-  .container {
-    width: 100%;
-    max-width: 750px;
-  }
-  .main-section {
-    width: 60%;
-  
-  }
-}
 
   

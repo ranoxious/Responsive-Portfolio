@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 34px;
     color: #777;
     background: url("../images/concrete_seamless.png");
@@ -206,54 +206,59 @@ footer {
   }
 
   
-  
-  
+
+    
+
   @media screen and (max-width: 640px)
-{
+  {
+  
+  header {
+  
+    width: 200px;
+    margin: -60px;
+  
+  }
+  nav {
+  
+    margin-top: -30px;
+  
+  }
+  nav a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  #main-container {
+   
+  margin:-25px;
+  
+  }
 
-header {
+  .tab2, .tab4, .tab6{
+    width: 100px;
+    margin-left: 50%;
+  }
+  .tab1, .tab3, .tab5{
+    width: 100px;
+    margin-left: -50%;
+  }
+  .write{
+    margin-top: -90px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 13px;
+    width: 150px;
+  }
+  #logo{
+    margin:30px;
+  
+  }
+  footer{
+    width: 200px;
+    margin: -20px;
+  }
 
-  width: 500px;
-  margin: -60px;
-
-}
-nav {
-  float: left;
-  margin-top: -30px;
-
-}
-nav a {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 15px;
-}
-
-#main-container {
- 
-margin:-25px;
-
-}
-.tab2, .tab4, .tab6{
-  width: 290px;
-	margin-left: 50%;
-}
-.write{
-  margin-top: -90px;
-  font-size: 18px;
-  text-align: center;
-  padding-top: 13px;
-  width: 150px;
-}
-#logo{
-  margin:30px;
-
-}
-footer{
-  width: 400px;
-  margin: -50px;
-}
-
-}
 
 @media screen and (max-width: 768px)
 {
@@ -314,6 +319,8 @@ footer{
 
 }
 
+
+
 @media screen and (max-width: 980px) {
   #main-container  {
     padding-top: 0;
@@ -327,3 +334,4 @@ footer{
   
   }
 }
+
