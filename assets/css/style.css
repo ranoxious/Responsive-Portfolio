@@ -174,39 +174,6 @@ footer {
   }
   
 
-
-  
-  @media screen and (max-width: 768px)
-  
-  nav {
-    float: left;
-    margin-top: -20px;
-  
-  }
-  nav a {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-  
-  #main-container {
-   
-  margin:-25px;
-  
-  }
-  #logo{
-    margin:30px;
-  
-  }
-  footer{
-    width: 400px;
-    margin: -50px;
-  }
-
-  }
-  
-  
-
   @media screen and (max-width: 768px)
 {
 

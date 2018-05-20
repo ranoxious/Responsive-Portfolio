@@ -200,3 +200,17 @@ footer{
 }
 
 }
+
+@media screen and (max-width: 980px) {
+  #main-container  {
+    padding-top: 0;
+    }
+  .container {
+    width: 100%;
+    max-width: 750px;
+  }
+  .main-section {
+    width: 60%;
+  
+  }
+}
