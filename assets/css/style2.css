@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background: url("../images/concrete_seamless.png");
+
+  }
+
+  h2{
+    color: #4aaaa5;
+  }
+
+.banner1 {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+
+
+
+  #logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+
+  /* main */
+  
+  #main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .write{
+    margin-top: -80px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 13px;
+    color: #fff;
+    background-color: #4aaaa5;
+    opacity: 0.7;
+  }
+  
+/*  .write1{
+    position: absolute;
+    margin-top: -62px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 13px;
+    color: #fff;
+    background-color: #4aaaa5;
+    opacity: 0.7;
+
+}
+  .write2{
+    position: absolute;
+    float: right;
+    margin-top: 54px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 13px;
+    color: #fff;
+    background-color: #4aaaa5;
+    opacity: 0.7;
+}
+
+.write3{
+  position: absolute;
+  margin-top: -45px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 13px;
+  color: #fff;
+  background-color: #4aaaa5;
+  opacity: 0.7;
+}
+
+.write4{
+  position: absolute;
+  float: right;
+  margin-top: 45px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 13px;
+  color: #fff;
+  background-color: #4aaaa5;
+  opacity: 0.7;
+}
+
+
+.write5{
+  position: absolute;
+  margin-top: -35px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 13px;
+  color: #fff;
+  background-color: #4aaaa5;
+  opacity: 0.7;
+}
+
+.write6{
+  position: absolute;
+  float:right;
+  margin-top: 25px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 13px;
+  color: #fff;
+  background-color: #4aaaa5;
+  opacity: 0.7;
+}*/
+
+.tab1, .tab3, .tab5{
+  float:left;
+  width:150px;
+}
+
+.topcontainer{
+  clear:both;
+}
+
+.middlecontainer{
+  clear:both;
+}
+
+.bottomcontainer{
+  clear:both;
+}
+
+.tab2, .tab4, .tab6{
+  float:right;
+  width:150px;
+ 
+}
+
+
+footer {
+    padding: 25px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 40px;
+  }
+
+  
+  
+  
+  @media screen and (max-width: 640px)
+{
+
+header {
+
+  width: 500px;
+  margin: -60px;
+
+}
+nav {
+  float: left;
+  margin-top: -30px;
+
+}
+nav a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+#main-container {
+ 
+margin:-25px;
+
+}
+.tab2, .tab4, .tab6{
+  width: 290px;
+	margin-left: 50%;
+}
+.write{
+  margin-top: -90px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 13px;
+  width: 150px;
+}
+#logo{
+  margin:30px;
+
+}
+footer{
+  width: 400px;
+  margin: -50px;
+}
+
+}
+
+@media screen and (max-width: 768px)
+{
+
+header {
+
+  width: 500px;
+  margin: -30px;
+ 
+}
+nav {
+  float: left;
+  margin-top: 45px;
+
+}
+nav a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+#main-container {
+ 
+margin:-15px;
+
+}
+.tab2, .tab4, .tab6{
+  width: 580px;
+	margin-left: 50%;
+}
+
+.write{
+  margin-top: -80px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 13px;
+  width: 150px;
+}
+#logo{
+  margin:13px;
+
+}
+
+.container {
+  width: 100%;
+  
+}
+
+header{
+  width:80%;
+  margin: -15px;
+}
+
+footer{
+  width: 680px;
+  margin: -45px;
+}
+
+}
+
+@media screen and (max-width: 980px) {
+  #main-container  {
+    padding-top: 0;
+    }
+  .container {
+    width: 100%;
+    max-width: 750px;
+  }
+  .main-section {
+    width: 60%;
+  
+  }
+}
